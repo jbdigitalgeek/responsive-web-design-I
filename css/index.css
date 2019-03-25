@@ -229,6 +229,11 @@ header .logo {
 .main-content .top-content {
     display: flex;
 }
+@media (max-width: 500px){
+    .top-content {
+        flex-wrap: wrap;
+    }
+}
 
 .main-content .middle-img {
     display: block;
@@ -243,7 +248,11 @@ header .logo {
 .main-content .bottom-content {
     display: flex;
 }
-
+@media (max-width: 500px){
+    .bottom-content {
+        flex-wrap: wrap;
+    }
+}
 .main-content .bottom-content p {
     padding-right: 20px;
 }
